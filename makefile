@@ -27,7 +27,7 @@ my_args: my_args.c
 
 tasks: tasks.c
 
-	$(CC) my_args.c -o my_args
+	$(CC) tasks.c -o tasks
 
 # Clean rule to remove generated programs
 

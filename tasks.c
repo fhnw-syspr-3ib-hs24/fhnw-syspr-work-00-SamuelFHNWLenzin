@@ -5,8 +5,7 @@
 void printSize()
 {
     printf("printing basis type sizes \n");
-    printf("char: ");
-    printf("%lu\n", sizeof(char));
+    printf("char: %lu\n", sizeof(char));
     printf("int: ");
     printf("%lu\n", sizeof(int));
     printf("long: ");
